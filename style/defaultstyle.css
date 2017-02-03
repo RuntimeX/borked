@@ -1,0 +1,25 @@
+body {
+	margin: auto;
+	color: white;
+	background-color: black;
+	font-size: 14px;
+	
+}
+
+h1 {
+	text-align: center;
+	color: red;
+	padding-bottom: 5px;
+}
+
+p {
+	
+}
+
+iframe.center{
+	text-align: center;
+	}
+p.center {
+	text-align: center;
+}
+
