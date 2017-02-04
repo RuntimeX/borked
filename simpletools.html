@@ -9,14 +9,15 @@
 		<meta name="discription" content="Some simple tools">
 		<link rel="stylesheet" href="style/utils.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="js/utils.js"></script>
 
 		<script>
 		$(document).ready(function(){
-				func getIsRadio() {
+				function getIsRadio() {
 					if ($("#radio_1").prop("checked", true))
 					{return true}
 				}
-            $("#pb_selector").hide();
+        $("#pb_selector").hide(1000);
 
  		 // jQuery methods go here...
 		});
