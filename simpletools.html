@@ -3,21 +3,26 @@
 	<head>
 
 
-	
+
 		<title>Simple Tools</title>
 		<meta name="author" content="Roman Sill" >
 		<meta name="discription" content="Some simple tools">
 		<link rel="stylesheet" href="style/utils.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		
+		<script src="js/utils.js"></script>
+
 		<script>
 		$(document).ready(function(){
-            $("#pb_selector").fadeOut(5000);
+				function getIsRadio() {
+					if ($("#radio_1").prop("checked", true))
+					{return true}
+				}
+        	$("#pb_selector").hide(1000);
 
  		 // jQuery methods go here...
 		});
 		</script>
-		
+
 		</head>
 	<body>
         <div id="top_wrapper">
@@ -26,7 +31,7 @@
                 <h2>from Borked</h2>
             </header>
         </div> <!-- top wrapper -->
-        
+
         <div class="main_wrapper">
             <div id="picker_box">
                 <h2>N Sided Die</h2>
@@ -37,19 +42,22 @@
                     <option value="3">3</option>
                     <option value="4">4</option>
                     <option value="5">5</option>
-                </select><p>work area</p>
-                <button id="submit_n">submit</button>
-                
-            
+                </select>
+			<form id="n_die">
+				<p id="pick_text">I need to pick</p>
+				<label class='input-label'><input class='input-radio' type='radio' name='radio_less'> 5 or less items...</label>
+				<label class='input-label'><input class='input-radio' type='radio' name='radio_more'> More than 5 items...</label>
+			</form>
+
             </div> <!--picker_box
 
 
         <p>MAIN AREA</p>
-            
+
         </div> <!-- main wrapper -->
-        
-    
-	
+
+
+
 	</body>
-	
+
 	</html>
