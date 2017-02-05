@@ -79,6 +79,26 @@ nav {
 #n_die::p {
   font-size: 12px;
 }
+
+#n_die button {
+    background-color: darkblue;
+    border: 1px;
+    border-color: red;
+    color: red;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+#ndie textarea {
+    color: black;
+    background-color: lightblue;
+}
+
 footer {
 
 }
