@@ -1,5 +1,5 @@
 body {
-	margin: auto;
+	margin: 5px;
 	color: white;
 	background-color: black;
 	font-size: 14px;
@@ -7,11 +7,19 @@ body {
 }
 
 header {
-	position: relative;
-	display: inline-block;
+	margin: inherit;
+	width: 100%;
+	display: block;
 	text-align: center;
-	margin: 15px 50px;
-	width: 400px;
+	padding: 10px;
+
+}
+
+.headerbox {
+	display: inline-block;
+	text-align: center;;
+	margin: auto;
+	width: 375px;
 	height: auto;
 	padding: 10px;
 	border-style: outset;
@@ -19,7 +27,6 @@ header {
 	border-color: red;
 	border-radius: 10px 40px 10px 40px;
 	background-color: white;
-
 
 }
 
