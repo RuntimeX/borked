@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css?family=Audiowide|Bangers|Orbitron:400,500,700');
 
 html{
-    
+
 }
 
 body {
@@ -21,7 +21,7 @@ h1, h2, h3 {
     font-family: 'Audiowide', cursive;
     text-align: center;
     color: blue;
-    
+
 }
 #top_wrapper {
     border-radius: 20px;
@@ -37,11 +37,11 @@ h1, h2, h3 {
 nav {
     padding-bottom: 2px;
     width: auto;
-    
+
 }
 .main_wrapper {
     width: 95%;
-    
+
 }
 
 #picker_box {
@@ -70,11 +70,35 @@ nav {
     border-color: crimson;
 }
 #picker_box::first-line {
+    font-size: 14px;
+    text-shadow: 2px 2px 5px red;
     color: black;
     width: 100%;
     display: block;
 }
+#n_die::p {
+  font-size: 12px;
+}
+
+#n_die button {
+    background-color: darkblue;
+    border: 1px;
+    border-color: red;
+    color: red;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+#ndie textarea {
+    color: black;
+    background-color: lightblue;
+}
 
 footer {
-    
+
 }

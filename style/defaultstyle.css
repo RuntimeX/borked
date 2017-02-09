@@ -1,9 +1,33 @@
 body {
-	margin: auto;
+	margin: 5px;
 	color: white;
 	background-color: black;
 	font-size: 14px;
-	
+
+}
+
+header {
+	margin: inherit;
+	width: 100%;
+	display: block;
+	text-align: center;
+	padding: 10px;
+
+}
+
+.headerbox {
+	display: inline-block;
+	text-align: center;;
+	margin: auto;
+	width: 375px;
+	height: auto;
+	padding: 10px;
+	border-style: outset;
+	border-width: 5px;
+	border-color: red;
+	border-radius: 10px 40px 10px 40px;
+	background-color: white;
+
 }
 
 h1 {
@@ -13,7 +37,7 @@ h1 {
 }
 
 p {
-	
+
 }
 
 iframe.center{
@@ -22,4 +46,3 @@ iframe.center{
 p.center {
 	text-align: center;
 }
-
